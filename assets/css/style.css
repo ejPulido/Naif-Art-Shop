@@ -1,0 +1,151 @@
+
+
+/*modal*/
+.modal-container{
+  position: absolute;
+  background-color:#0009;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  display: none;
+}
+.modal-target{
+  align-self: center;
+  background: #fff;
+  height: 70%;
+  padding: 2em;
+  text-align: center;
+}
+
+.modal__botons{
+  margin-top: 2em;
+}
+
+.modal__botons-btn{
+  padding: .8em;
+  background-color: #000;
+  margin-left: 1em;
+  text-decoration: none;
+  color: #fff;
+  border-radius: .5em;
+}
+.modal__title{
+
+}
+
+/*modal*/
+
+/*Navbar*/
+.nav{
+  width: 100%;
+  height: 80px;
+  background-color: #c39082;
+}
+.nav-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.title-link{
+  text-decoration: none;
+  color: #fff;
+}
+.title-link:hover{
+  color: #fff;
+}
+
+.nav__title{
+  margin-left:1em;
+  align-self: center;
+}
+
+.nav__title-text{
+
+}
+
+.nav__items{}
+
+.nav__items-links{
+  display: flex;
+  height: 100%;
+  padding-right: 1em;
+}
+.nav__items-links-link{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: .5em;
+}
+
+.nav__items-links-link:hover{
+  background-color: #ccc;
+  color: #000;
+
+}
+
+.nav__items-links-link-href{
+  text-decoration: none;
+  color: #fff;
+}
+/*Navbar*/
+
+/*Hero*/
+
+.hero-container{
+  width: 100%;
+  height: calc(100vh - 80px);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__img{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(-135deg, #0006,#0006), url('../src/img/hero.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.hero__title-container{
+  position: absolute;
+  text-align: center;
+  padding: 1.5em;
+  color:#ffffffff;
+}
+
+.hero__botons{
+  margin-top: 2em;
+
+}
+
+.hero__botons-btn{
+  padding: .8em;
+  background-color: #fff;
+  margin-left: 1em;
+  text-decoration: none;
+  color: #000;
+  border-radius: .5em;
+}
+/*Hero*/
+
+/*Article*/
+.buy-boton-container{
+  margin-top:2em;
+}
+
+.buy-boton{
+  padding: .8em;
+  background-color: #000;
+  text-decoration: none;
+  color: #fff;
+  border-radius: .5em;
+}
+.buy-boton:hover{
+  color: #ccc;
+}
+
+/*Article*/
